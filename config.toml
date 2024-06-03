@@ -1,0 +1,27 @@
+
+[server]
+maxMessageSize = 300
+maxUploadSize = 300
+headless = true
+port = 8501
+enableCORS = false
+enableXsrfProtection = false
+
+[theme]
+primaryColor = "#1abc9c"
+backgroundColor = "#fff"
+secondaryBackgroundColor = "#f0f0f5"
+textColor = "#000000"
+font = "sans serif"
+
+[browser]
+gatherUsageStats = false
+
+[runner]
+magicEnabled = true
+
+[logger]
+level = "info"
+
+[global]
+maxCachedFileSize = 300
