@@ -11,7 +11,7 @@ st.set_page_config(layout="wide")
 @st.cache_data
 def load_data():
     df = pd.read_csv('events.csv', nrows="10000")
-    df1 = pd.read_csv('ginf.csv' nrows="10000")
+    df1 = pd.read_csv('ginf.csv', nrows="10000")
     return df, df1
 
 # Carregar os dados
